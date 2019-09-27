@@ -1,0 +1,157 @@
+/*
+ * Z-Index: let's us position elements on top of each other (the z-axis controls depth position)
+ */
+ 
+/* .container {
+  position: relative;
+  height: 800px;
+  background: lightgray;
+} */
+/* 
+.box {
+  position: relative;
+  float: right;
+  width: 600px;
+  height: 400px;
+  bottom: 20px;
+  right: 25px;
+  background: #fff;
+  border: 2px solid black;
+} */
+
+/* div.container {
+  width: 100%;
+  border: 2px solid black;
+  height: 1080px;
+  background: lightgray; 
+}*/
+ 
+/* This is the outer container*/
+div.box_1{
+  box-sizing: border-box;
+  position: relative;
+  width: 1500px;
+  height: 800px;
+  background: lightgray;
+  padding: 50px;
+  border: 5px solid purple;
+}
+
+/* This is the LEFT inner container Summary vs Weather*/
+.box_2{
+  box-sizing: border-box;
+  position: absolute;
+  top: 10px;
+  width: 25px;
+  height: 25px;
+  left: 60px;
+  padding: 50px;
+  font-size: large;
+  color : black;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border: 5px solid blue;
+}
+
+/* This is the RIGHT inner container ; Visualizations*/
+.box_3{
+  box-sizing: border-box;
+  position: absolute;
+  top: 50px;
+  width: 325px;
+  height: 325px;
+  left: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background: white;
+  border: 5px solid red;
+  
+}
+h3{
+  color:rgb(42, 199, 183);
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.thumbnail {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+}
+
+
+
+
+/* .temperature {
+  bottom: 760px;
+  left: 550px;
+  z-index: 1
+}
+
+.humidity {
+  bottom: 20px;
+  right: 25px;
+  z-index: 2;
+}
+
+.cloudy {
+  top: -328px;
+  left: 200px;
+  z-index: 3;
+}
+
+.wind {
+  bottom: -5px;
+  left: -65px;
+  z-index: 4;
+}
+
+.clearfix::after{
+  content:"";
+  clear:both;
+} */
+/* temperature {
+  float: left;
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.humidity {
+  float: right;
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.cloudy {
+  float: left;
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.wind {
+  float: right;
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  color: #fff;
+} */
