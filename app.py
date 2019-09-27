@@ -37,5 +37,3 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 ##### mars_data is where the dictionary of data is stored in scrape_mars.py
-##### I need to understand the variables to set up the collection in mongo
-##### ????? Need help with my data variables
