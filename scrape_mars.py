@@ -314,6 +314,8 @@ def scrape():
 
     ##### These are the locations where information was stored
 
+    
+    
     ##### latest News Title and Paragraph Text.
     mars_data["title"] = nasa_title
     mars_data["article"] = nasa_article
@@ -342,6 +344,9 @@ def scrape():
     ##### Variable for Hemisphere Image & urls
     mars_data["hemispheret3"] = hemisphere_image_urls[3]['title']
     mars_data["hemisphere3"] = hemisphere_image_urls[3]['image_url']
+
+    ##### Dictionary with Hemisphere Image & urls (Separated out above)
+    mars_data["hemisphere_image_urls"] = hemisphere_image_urls
 
     ##### Close the browser after scraping
     browser.quit()
