@@ -30,15 +30,15 @@
 div.box_1{
   box-sizing: border-box;
   position: relative;
-  width: 1000px;
-  height: 600px;
+  width: 1500px;
+  height: 800px;
   background: lightgray;
   padding: 50px;
   border: 5px solid purple;
 }
 
 /* This is the LEFT inner container Summary vs Weather*/
-.box_2{
+div.box_2{
   box-sizing: border-box;
   position: absolute;
   top: 10px;
@@ -55,7 +55,7 @@ div.box_1{
 }
 
 /* This is the RIGHT inner container ; Visualizations*/
-.box_3{
+div.box_3{
   box-sizing: border-box;
   position: absolute;
   top: 50px;
@@ -67,8 +67,19 @@ div.box_1{
   padding: 50px;
   background: white;
   border: 5px solid red;
-  
 }
+
+/* This is the hemisphere container*/
+div.box_hemisphere{
+  box-sizing: border-box;
+  position: relative;
+  width: 1500px;
+  height: 800px;
+  background: lightgray;
+ 
+  border: 5px solid purple;
+}
+  
 h3{
   color:rgb(42, 199, 183);
   font-weight: bold;
