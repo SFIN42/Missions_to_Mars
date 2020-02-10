@@ -1,5 +1,7 @@
 ### Background
 
+![mission_to_mars](Images/mission_to_mars.png)
+
 A project designed to show the latest data about Mars on a web page through the use of web scraping, MongoDB, and Flask.
 
 ### NASA Mars News
