@@ -4,7 +4,7 @@
 
 ![Image from the Mars Website](img.png)
 
-### The Steps below will be accomplished running the app.py program.
+### The Steps below were accomplished running the app.py program.
 
 ---
 
