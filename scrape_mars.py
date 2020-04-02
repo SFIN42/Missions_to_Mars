@@ -162,7 +162,7 @@ def scrape():
     time.sleep(pause_time)
 
     ##### Convert Table to a Pandas DF
-    marsdf = tables[0]
+    marsdf = tables[1]
     marsdf.columns = ['Mars - Earth Comparison', 'Mars', 'Earth']
     # marsdf.head()
 
